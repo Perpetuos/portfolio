@@ -2,11 +2,11 @@ import React from 'react'
 import { BrowserRouter as Router, Routes, Route, NavLink, useLocation } from 'react-router-dom';
 import Home from '../pages/home/home.jsx';
 import Education from '../pages/education/education.jsx';
-import {} from './mobile-navbar.js'
+import { } from './mobile-navbar.js'
 
 export default function NavBar() {
     return (
-        
+
         <Router>
             <div>
                 <header>
@@ -17,6 +17,7 @@ export default function NavBar() {
                             <div className='line2'></div>
                             <div className='line3'></div>
                         </div>
+
                         <ul className="nav-list">
                             <li><NavLink to="/">Home</NavLink></li>
                             <li><NavLink to="/education">Education</NavLink></li>
@@ -34,8 +35,11 @@ export default function NavBar() {
                     </Routes>
                 </div>
             </div>
-           
+
+
         </Router>
-        
+
+
     )
+
 }

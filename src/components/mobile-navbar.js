@@ -8,7 +8,7 @@ class MobileNavbar {
     }
 
     handleClick() {
-        console.log(this);
+        console.log('teste')
         this.navlist.classList.toggle(this.activeClass);
     }
 
