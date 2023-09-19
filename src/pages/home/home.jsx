@@ -50,7 +50,9 @@ export default function home() {
 
                 <div className="container-text-2">
 
-                    <h1 className="h1-text-2">Data science & analysis</h1>
+                    <h1 className="h1-text">Data science & analysis</h1>
+
+                    <div>
 
 
                     <p>
@@ -62,6 +64,7 @@ export default function home() {
                     <p>
                         Complex quantitative modelling for dynamic forecasting and time series analysis
                     </p>
+                    </div>
 
 
                 </div>
@@ -71,7 +74,7 @@ export default function home() {
 
             </div>
 
-            {/* <div className="container">
+            <div className="container">
             <div className="container-text">
                 <h1 className="h1-text">David Ferreira</h1>
 
@@ -95,14 +98,13 @@ export default function home() {
 
             </div>
             <div className="container-img">
-                <img src="/src/assets/images/4.png" alt="" width={"100%"} />
+                <img src="/src/assets/images/5.png" alt="" width={"100%"} />
 
             </div>
 
 
 
-
-        </div> */}
+        </div>
 
         </div>
 
