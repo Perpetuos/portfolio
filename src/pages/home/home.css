@@ -122,16 +122,24 @@ nav {
     animation: fade-in 1s ease forwards;
 }
 
+.container-text-2 {
+
+    width: 50%;
+    text-align: start;
+
+}
+
 .container-img-2 {
     width: 50%;
     text-align: center;
 }
 
 .h1-text-2 {
-    padding-top: 4vw;
+    padding-bottom: 5vw;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     font-size: 3.5vw;
 
 
 }
+

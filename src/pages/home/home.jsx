@@ -41,20 +41,26 @@ export default function home() {
 
             <div className="container-2">
 
-              
+
 
                 <div className="container-img-2">
                     <img src="/src/assets/images/6.png" alt="" width={"100%"} />
 
                 </div>
 
-                <div className="container-text">
+                <div className="container-text-2">
 
-                <h1 className="h1-text-1">Data science & analysis</h1>
+                    <h1 className="h1-text-2">Data science & analysis</h1>
 
 
                     <p>
-                        Lorem ipsum dolor sit amet consectetur
+                        Developing highly scalable production ready models for various deeplearning and statistical use cases
+                    </p>
+                    <p>
+                        Experience of working with Computer Vision and NLP projects
+                    </p>
+                    <p>
+                        Complex quantitative modelling for dynamic forecasting and time series analysis
                     </p>
 
 
