@@ -28,7 +28,7 @@ export default function home() {
 
                 </div>
                 <div className="container-img">
-                    <img src="/src/assets/images/3.png" alt="" width={"100%"} />
+                    <img src="/src/assets/images/5.png" alt="" width={"100%"} />
 
                 </div>
 
@@ -37,20 +37,24 @@ export default function home() {
 
             </div>
 
+            <div ><h1 className="h1-text-2">What I Do?</h1></div>
+
             <div className="container-2">
 
+              
+
                 <div className="container-img-2">
-                    <img src="/src/assets/images/1.png" alt="" width={"100%"} />
+                    <img src="/src/assets/images/6.png" alt="" width={"100%"} />
 
                 </div>
 
                 <div className="container-text">
-                    <h1 className="h1-text">David Ferreira</h1>
+
+                <h1 className="h1-text-1">Data science & analysis</h1>
+
 
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veritatis fuga suscipit
-                        reprehenderit asperiores itaque odit doloribus nihil, sed vitae eos! Illo obcaecati possimus ipsa
-                        reprehenderit accusantium itaque eos earum.
+                        Lorem ipsum dolor sit amet consectetur
                     </p>
 
 
