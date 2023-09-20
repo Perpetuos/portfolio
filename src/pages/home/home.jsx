@@ -98,7 +98,7 @@ export default function home() {
 
             </div>
             <div className="container-img">
-                <img src="/src/assets/images/5.png" alt="" width={"100%"} />
+                <img src="/src/assets/images/7.png" alt="" width={"100%"} />
 
             </div>
 
