@@ -23,7 +23,7 @@ export default function NavBar() {
                             <li><NavLink to="/education">Education</NavLink></li>
                             <li><NavLink to="/experience">Experience</NavLink></li>
                             <li><NavLink to="/projects">Projects</NavLink></li>
-                            <li><NavLink to="/contact">Contact</NavLink></li>
+                            <li><NavLink to="/contact">Login</NavLink></li>
                         </ul>
                     </nav>
                 </header>
