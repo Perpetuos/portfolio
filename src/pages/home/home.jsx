@@ -56,13 +56,13 @@ export default function home() {
 
 
                         <p>
-                            Developing highly scalable production ready models for various deeplearning and statistical use cases
+                            Building responsive website front end using React-Redux
                         </p>
                         <p>
-                            Experience of working with Computer Vision and NLP projects
+                            Developing mobile applications using Flutter, React Native and solo android apps using Kotlin
                         </p>
                         <p>
-                            Complex quantitative modelling for dynamic forecasting and time series analysis
+                            Creating application backend in Node, Express & Flask
                         </p>
                     </div>
 
@@ -91,13 +91,13 @@ export default function home() {
 
 
                         <p>
-                            Developing highly scalable production ready models for various deeplearning and statistical use cases
+                            Designing highly attractive user interface for mobile and web applications
                         </p>
                         <p>
-                            Experience of working with Computer Vision and NLP projects
+                            Customizing logo designs and building logos from scratch
                         </p>
                         <p>
-                            Complex quantitative modelling for dynamic forecasting and time series analysis
+                            Creating the flow of application functionalities to optimize user experience
                         </p>
                     </div>
 
