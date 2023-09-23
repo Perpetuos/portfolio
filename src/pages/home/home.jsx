@@ -1,6 +1,9 @@
 import React from 'react'
 import './home.css'
 import { BrowserRouter as NavLink } from 'react-router-dom';
+import { BsStarFill, BsLightningChargeFill, BsInstagram, BsLinkedin, BsGithub, BsWhatsapp } from 'react-icons/bs';
+import { SiDart, SiAdobephotoshop, SiFigma, SiAdobeillustrator, SiAdobexd } from 'react-icons/si';
+import { BiLogoReact, BiLogoCss3, BiLogoHtml5, BiLogoFlutter, BiLogoNodejs, BiLogoJavascript } from 'react-icons/bi'
 
 
 export default function home() {
@@ -8,24 +11,22 @@ export default function home() {
         <div>
             <div className="container">
                 <div className="container-text">
-                    <h1 className="h1-text">David Ferreira</h1>
+                    <h1 className='title'>David Ferreira</h1>
 
-                    <p>
+                    <p className='p-g'>
                         A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.
                     </p>
 
                     <div className='social-icons'>
-                        <i className="fab fa-facebook"></i>
-                        <i className="fab fa-twitter"></i>
-                        <i className="fab fa-instagram"></i>
-                        <i className="fab fa-linkedin"></i>
-                        <i className="fab fa-github"></i>
+                        <i> <BsWhatsapp color='#25D366' /> </i>
+                        <i> <BsInstagram color='#E4405F' /> </i>
+                        <i> <BsLinkedin color='#0077B5' /> </i>
+                        <i> <BsGithub color='#333' /> </i>
                     </div>
-                    <a className='project' href="">
-                        <i className="fas fa-star"></i>
-                        <i> Star Me On Github</i>
-                    </a>
 
+
+                    
+                    <button className='project'> <i> <BsStarFill /> Star Me On Github </i></button>
                 </div>
                 <div className="container-img">
                     <img src="/src/assets/images/5.png" alt="" width={"100%"} />
@@ -37,67 +38,81 @@ export default function home() {
 
             </div>
 
-            <div ><h1 className="h1-text-2">What I Do?</h1></div>
 
-            <div className="container-2">
-
+            <div className='container'>
 
 
-                <div className="container-img-2">
+
+
+
+                <div className="container-img">
                     <img src="/src/assets/images/6.png" alt="" width={"100%"} />
 
                 </div>
 
-                <div className="container-text-2">
+                <div className="container-text">
 
-                    <h1 className="h1-text">Data science & analysis</h1>
+                    <h1 className='title'>Full Stack Development</h1>
+
+                    <div className='social-icons'>
+                        <i> <BiLogoHtml5 color='#E34F26' /> </i>
+                        <i> <BiLogoCss3 color='#1572B6' /> </i>
+                        <i> <BiLogoJavascript color='#F0DB4F' /> </i>
+                        <i> <BiLogoReact color='#61DAFB' /> </i>
+                        <i> <BiLogoNodejs color='#8CC84B' /> </i>
+                        <i> <SiDart color='#0175C2' /> </i>
+                        <i> <BiLogoFlutter color='#02569B' /> </i>
+
+                    </div>
 
                     <div>
 
-
                         <p>
-                            Developing highly scalable production ready models for various deeplearning and statistical use cases
+                            <BsLightningChargeFill color='orange' />  Developing highly scalable production ready models for various deeplearning and statistical use cases
                         </p>
                         <p>
-                            Experience of working with Computer Vision and NLP projects
+                            <BsLightningChargeFill color='orange' />  Experience of working with Computer Vision and NLP projects
                         </p>
                         <p>
-                            Complex quantitative modelling for dynamic forecasting and time series analysis
+                            <BsLightningChargeFill color='orange' />  Complex quantitative modelling for dynamic forecasting and time series analysis
                         </p>
                     </div>
 
 
                 </div>
-
-
-
-
             </div>
 
-            <div className="container-2">
+            <div className='container'>
 
 
 
-                <div className="container-img-2">
+                <div className="container-img">
                     <img src="/src/assets/images/7.png" alt="" width={"100%"} />
 
                 </div>
 
-                <div className="container-text-2">
+                <div className="container-text">
 
-                    <h1 className="h1-text">Data science & analysis</h1>
+                    <h1 className='title'>UI/UX Design
+                    </h1>
+
+                    <div className='social-icons'>
+                        <i> <SiAdobephotoshop color='#0018A8' /> </i>
+                        <i> <SiAdobeillustrator color='#FF9A00' /> </i>
+                        <i> <SiAdobexd color='#FF0080' /> </i>
+                        <i> <SiFigma color='#F24E1E' /> </i>
+                    </div>
 
                     <div>
 
-
                         <p>
-                            Developing highly scalable production ready models for various deeplearning and statistical use cases
+                            <BsLightningChargeFill color='orange' />  Designing highly attractive user interface for mobile and web applications
                         </p>
                         <p>
-                            Experience of working with Computer Vision and NLP projects
+                            <BsLightningChargeFill color='orange' />  Customizing logo designs and building logos from scratch
                         </p>
                         <p>
-                            Complex quantitative modelling for dynamic forecasting and time series analysis
+                            <BsLightningChargeFill color='orange' />  Creating the flow of application functionalities to optimize user experience
                         </p>
                     </div>
 
@@ -107,7 +122,12 @@ export default function home() {
 
 
 
+
+
             </div>
+
+
+
 
 
 
