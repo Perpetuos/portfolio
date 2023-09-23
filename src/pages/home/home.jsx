@@ -68,15 +68,6 @@ export default function home() {
                     <div>
 
                         <p>
-<<<<<<< HEAD
-                            <BsLightningChargeFill color='orange' />  Developing highly scalable production ready models for various deeplearning and statistical use cases
-                        </p>
-                        <p>
-                            <BsLightningChargeFill color='orange' />  Experience of working with Computer Vision and NLP projects
-                        </p>
-                        <p>
-                            <BsLightningChargeFill color='orange' />  Complex quantitative modelling for dynamic forecasting and time series analysis
-=======
                             Building responsive website front end using React-Redux
                         </p>
                         <p>
@@ -84,7 +75,6 @@ export default function home() {
                         </p>
                         <p>
                             Creating application backend in Node, Express & Flask
->>>>>>> 488d7bac17f0721802c49ecec629c86ee71253ff
                         </p>
                     </div>
 
@@ -116,15 +106,6 @@ export default function home() {
                     <div>
 
                         <p>
-<<<<<<< HEAD
-                            <BsLightningChargeFill color='orange' />  Designing highly attractive user interface for mobile and web applications
-                        </p>
-                        <p>
-                            <BsLightningChargeFill color='orange' />  Customizing logo designs and building logos from scratch
-                        </p>
-                        <p>
-                            <BsLightningChargeFill color='orange' />  Creating the flow of application functionalities to optimize user experience
-=======
                             Designing highly attractive user interface for mobile and web applications
                         </p>
                         <p>
@@ -132,7 +113,6 @@ export default function home() {
                         </p>
                         <p>
                             Creating the flow of application functionalities to optimize user experience
->>>>>>> 488d7bac17f0721802c49ecec629c86ee71253ff
                         </p>
                     </div>
 
