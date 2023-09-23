@@ -128,10 +128,7 @@ nav {
         padding: 5vw 0;
     }
 
-    p,
-    .p-g {
-        max-width: none;
-    }
+
 
     .container-text {
         order: 1;
