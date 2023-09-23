@@ -127,6 +127,10 @@ nav {
     .container-text {
         padding: 5vw 0;
     }
+    
+    p, .p-g {
+        max-width: none;
+    }
 
 
 

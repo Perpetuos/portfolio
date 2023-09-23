@@ -68,13 +68,13 @@ export default function home() {
                     <div>
 
                         <p>
-                            Building responsive website front end using React-Redux
+                            <BsLightningChargeFill color='orange' />  Developing highly scalable production ready models for various deeplearning and statistical use cases
                         </p>
                         <p>
-                            Developing mobile applications using Flutter, React Native and solo android apps using Kotlin
+                            <BsLightningChargeFill color='orange' />  Experience of working with Computer Vision and NLP projects
                         </p>
                         <p>
-                            Creating application backend in Node, Express & Flask
+                            <BsLightningChargeFill color='orange' />  Complex quantitative modelling for dynamic forecasting and time series analysis
                         </p>
                     </div>
 
@@ -106,13 +106,13 @@ export default function home() {
                     <div>
 
                         <p>
-                            Designing highly attractive user interface for mobile and web applications
+                            <BsLightningChargeFill color='orange' />  Designing highly attractive user interface for mobile and web applications
                         </p>
                         <p>
-                            Customizing logo designs and building logos from scratch
+                            <BsLightningChargeFill color='orange' />  Customizing logo designs and building logos from scratch
                         </p>
                         <p>
-                            Creating the flow of application functionalities to optimize user experience
+                            <BsLightningChargeFill color='orange' />  Creating the flow of application functionalities to optimize user experience
                         </p>
                     </div>
 
