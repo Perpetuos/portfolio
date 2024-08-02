@@ -3,7 +3,6 @@ import './App.css';
 import NavBar from './components/navbar';
 
 function App() {
-  //const [selectedPage, setSelectedPage] = useState('');
 
   return (
     <div>

@@ -11,19 +11,11 @@ export default function NavBar() {
             <div>
                 <header>
                     <nav>
-                        <NavLink to="http://google.com" className="logo">Não sei o que faço</NavLink>
-                        <div className='mobile-menu'>
-                            <div className='line1'></div>
-                            <div className='line2'></div>
-                            <div className='line3'></div>
-                        </div>
+                        <NavLink to="/" className="logo">Projeto de instrução ao arduino</NavLink>
 
                         <ul className="nav-list">
                             <li><NavLink to="/">Home</NavLink></li>
-                            <li><NavLink to="/education">Education</NavLink></li>
-                            <li><NavLink to="/experience">Experience</NavLink></li>
-                            <li><NavLink to="/projects">Projects</NavLink></li>
-                            <li><NavLink to="/contact">Login</NavLink></li>
+                            <li><NavLink to="/education">Contato</NavLink></li>
                         </ul>
                     </nav>
                 </header>
